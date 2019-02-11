@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+<form action="/post/new/{{ blog_id }}" method="post">
+  <div class="form-group">
+    <label for="title"> Title</label>
+    <input type="text" class="form-control" id="title" aria-describedby="emailHelp" placeholder="Enter title" name="title">
+
+  </div>
+  <div class="form-group">
+    <label for="Content">Content</label>
+      <textarea class="form-control" name="content" id="content" cols="30" rows="10"></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+{% endblock %}
