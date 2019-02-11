@@ -1,7 +1,7 @@
 # web_blog_flask
 
 this is simple web-based blog app using Flask and MongoDB.
-After running the MongoDB, go to the endpoint (default: `http://127.0.0.1:4995/)
+After running the MongoDB, go to the endpoint (default: http://127.0.0.1:4995/)
 endpoints:
 - `/`
 - `/login`
